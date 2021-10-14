@@ -14,8 +14,6 @@ function cavityMap(grid) {
         grid[i][y] > grid[i + 1][y]
       ) {
         grid[i] = grid[i].split("");
-        :qa
-
         grid[i][y] = "X";
         grid[i] = grid[i].join("");
       }
